@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DragonScaleCharSheet.exe" version="1.0.0.0" publicKeyToken="43fe3cd96c890e15" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DragonScaleCharSheet" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DragonScaleCharSheet.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opcje manifestu kontroli konta użytkownika
+          Jeśli chcesz zmienić poziom kontroli konta użytkownika systemu Windows, zastąp węzeł 
+          requestedExecutionLevel jednym z następujących.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Jeśli chcesz użyć wirtualizacji plików i rejestru do celów zgodności wstecznej, 
+         usuń węzeł requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DragonScaleCharSheet.exe" size="110016">
+      <assemblyIdentity name="DragonScaleCharSheet" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+DEE6bfROkjMlZedFpy9dk2icTkYI9TsVjqVvxgeZrc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DragonScaleCharSheet.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AURIOS-PC\Bartek" issuerKeyHash="c46ee0859dc3e3a9bb4be18fcb6b1d08a9d2040f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>JG2+/j3LpPnv1S+FeIQ9Lvu2H657Y7E3lMDxrYmY1AI=</DigestValue></Reference></SignedInfo><SignatureValue>GmSnmC4wM7JosoBqZd3LX+ulGIdQDUIiyJpufEEKN0q/yyQSvhpR2usP6XIqUzielLt5n3MBZKBhUxlIlroxyHVUDz8GWxWLPG2vZetDvehmmAg4dy58hvm/pMb/f2P4srZpRYqfTn4n0oxCIPbIbL0CTvtj/wyz817n1P9/bvs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0jwV5UD/kl88uWoxLgesGH1/LivvTWnTb4l6f3yPeBcW38QG0Gk98IUx1jX5+lDKIm+omZQDqIyIjM08czCMGQiqU2Io6NPqBJ8ksvC7/QvrNe1PcukyKSpwLWcfV7y344opAXYKTDYSiLt3qY6MxiW63wanGINQJZZJvd0UoYk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="02d49889adf1c09437b1637bae1fb6fb2e3d8478852fd5eff9a4cb3dfebe6d24" Description="" Url=""><as:assemblyIdentity name="DragonScaleCharSheet.exe" version="1.0.0.0" publicKeyToken="43fe3cd96c890e15" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AURIOS-PC\Bartek</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GIz+D3jA9zpCRr8W1p2KrxZUEnJSG+/SOIOr7h9k8OA=</DigestValue></Reference></SignedInfo><SignatureValue>ieADkCZBBqF4sU8UckbIzF4dIewtDiOFV0b8ENhqVunJb2BUXAZJhGQDQitcR0HIKx3Q3BbqUTzNZuChzD3FtHb7zoJBl4gEmrahBkgdQGFIQlVZNJL+ctkxL1efI22nnIUyH7BKA7t250Fh6zqp+9e/UJxJUa5b4P9uMi9Dy+0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0jwV5UD/kl88uWoxLgesGH1/LivvTWnTb4l6f3yPeBcW38QG0Gk98IUx1jX5+lDKIm+omZQDqIyIjM08czCMGQiqU2Io6NPqBJ8ksvC7/QvrNe1PcukyKSpwLWcfV7y344opAXYKTDYSiLt3qY6MxiW63wanGINQJZZJvd0UoYk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQZOoVduRFXoxB9BBZgHc4ijANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAQQBVAFIASQBPAFMALQBQAEMAXABCAGEAcgB0AGUAazAeFw0yMDA1MTYxMTQ2NDRaFw0yMTA1MTYxNzQ2NDRaMCsxKTAnBgNVBAMeIABBAFUAUgBJAE8AUwAtAFAAQwBcAEIAYQByAHQAZQBrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSPBXlQP+SXzy5ajEuB6wYfX8uK+9NadNviXp/fI94FxbfxAbQaT3whTHWNfn6UMoib6iZlAOojIiMzTxzMIwZCKpTYijo0+oEnySy8Lv9C+s17U9y6TIpKnAtZx9XvLfjiikBdgpMNhKIu3epjozGJbrfBqcYg1Allkm93RShiQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAMBp6KBjiMmWI/JDlUVyK+DsuiC5p8NdI7MFZzTpWhjJN7PkpSLN+jqUMLcQlEOr905Kwwe+V3iYhl7RnLBTzeI35r/E9DHDx8m4w5l/bo7tkcLltuHZSdVac+AjtafDrb+ZX7aT4e/AsRTd3aBR+ezIi3CScO6ZdhnnD9PzTC20</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
